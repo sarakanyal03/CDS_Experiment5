@@ -12,3 +12,13 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 
 OUTPUT: <BR>
 
+5A : <BR>
+![5A](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/a.png)
+5B : <BR>
+![5B](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/b.png)
+5C : <BR>
+![5C](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/c.png)
+5D : <BR>
+![5D](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/d.png)
+5E : <BR>
+![5E](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/e.png)
