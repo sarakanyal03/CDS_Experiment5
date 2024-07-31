@@ -31,18 +31,18 @@ int main() { <BR>
 }  <BR>
 
 
-2)
-#include<iostream>
-using namespace std;
+2) <BR>
+#include<iostream> <BR>
+using namespace std; <BR>
 
-int main() {
-    int  n1, n2, n3;
-    cout<<"Enter number1:";
-    cin>>n1;
-    cout<<"Enter number2:";
-    cin>>n2;
-    cout<<"Enter number3:";
-    cin>>n3;
+int main() { <BR>
+    int  n1, n2, n3; <BR>
+    cout<<"Enter number1:"; <BR>
+    cin>>n1; <BR>
+    cout<<"Enter number2:"; <BR>
+    cin>>n2; <BR>
+    cout<<"Enter number3:"; <BR>
+    cin>>n3; <BR>
 
     if(n1>n2) {
         if(n1>n3) {
@@ -66,14 +66,14 @@ int main() {
 } <BR>
 
 
-3)
-#include<iostream>
-using namespace std;
+3) <BR>
+#include<iostream> <BR>
+using namespace std; <BR>
 
-int main() {
-    int choice;
-    cout<<"1. Monday"<<endl<<"2. Tuesday"<<endl<<"3. Wednesday"<<endl<<"4. Thursday"<<endl<<"5. Friday"<<endl
-    <<"6. Saturday"<<endl<<"7. Sunday"<<endl;
+int main() { <BR>
+    int choice; <BR>
+    cout<<"1. Monday"<<endl<<"2. Tuesday"<<endl<<"3. Wednesday"<<endl<<"4. Thursday"<<endl<<"5. Friday"<<endl 
+    <<"6. Saturday"<<endl<<"7. Sunday"<<endl; <BR>
     
     cout <<"Enter your choice: ";
     cin>>choice;
@@ -105,57 +105,57 @@ int main() {
 } <BR>
 
 
-4)
-#include <iostream>
-using namespace std;
+4) <BR>
+#include <iostream> <BR>
+using namespace std; <BR>
 
-int main(){
-char oper;
-float n1, n2;
-cout<<"Enter an operator (+, -, *, /): ";
-cin>>oper;
-cout<<"Enter two numbers: "<<endl;
-cin>> n1 >> n2;
+int main(){ <BR>
+char oper; <BR>
+float n1, n2; <BR>
+cout<<"Enter an operator (+, -, *, /): "; <BR>
+cin>>oper; <BR>
+cout<<"Enter two numbers: "<<endl; <BR>
+cin>> n1 >> n2; <BR>
 
-switch (oper) {
-case '+':
-cout<< n1 <<" + "<< n2 <<" = "<< n1 + n2;
-break;
-case '-':
-break;
-case '*':
-cout<< n1 <<" * "<< n2 <<" = "<< n1 * n2;
-break;
-case '/':
-cout<< n1 <<" / "<< n2 <<" = "<< n1 / n2;
-break;
-default:
-//operator is doesn't match any case constant (+, -, *, /)
-cout<<"Error! The operator is not correct";
-break;
-    }
+switch (oper) { <BR>
+case '+': <BR>
+cout<< n1 <<" + "<< n2 <<" = "<< n1 + n2; <BR>
+break; <BR>
+case '-': <BR>
+break; <BR>
+case '*': <BR>
+cout<< n1 <<" * "<< n2 <<" = "<< n1 * n2; <BR>
+break; <BR>
+case '/': <BR>
+cout<< n1 <<" / "<< n2 <<" = "<< n1 / n2; <BR>
+break; <BR>
+default: <BR>
+//operator is doesn't match any case constant (+, -, *, /) <BR>
+cout<<"Error! The operator is not correct"; <BR>
+break; <BR>
+    } <BR>
 
-return 0;
+return 0; <BR>
 } <BR>
 
 
-5)
-#include <iostream>
-using namespace std;
+5) <BR>
+#include <iostream> <BR>
+using namespace std; <BR>
 
-int main() {
-int day = 1;
-  switch (day) {
-    case 6:
-cout<< "Today is Saturday";
-      break;
-    case 7:
-cout<< "Today is Sunday";
-      break;
-    default:
-cout<< "Looking forward to the Weekend";
-  }
-  return 0;
+int main() { <BR>
+int day = 1; <BR>
+  switch (day) { <BR>
+    case 6: <BR>
+cout<< "Today is Saturday"; <BR>
+      break; <BR>
+    case 7: <BR>
+cout<< "Today is Sunday"; <BR>
+      break; <BR>
+    default: <BR>
+cout<< "Looking forward to the Weekend"; <BR>
+  } <BR>
+  return 0; <BR>
 } <BR>
 
 
@@ -171,3 +171,6 @@ OUTPUT: <BR>
 ![5D](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/d.png)
 5E : <BR>
 ![5E](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/e.png)
+
+CONCLUSION :  <BR>
+
