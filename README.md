@@ -12,7 +12,8 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 
 CODE: <BR>
 1) CODE A:<BR>
-```#include<iostream>
+```
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -28,10 +29,12 @@ int main() {
     else {
         cout<<a<<" is even"<<endl;
     }
-}```
+}
+```
 
 2) CODE B: <BR>
-```#include<iostream>
+```
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -62,11 +65,13 @@ int main() {
     else {
         cout<<"All numbers are equal";
     }
-}```
+}
+```
 
 
 3) CODE C: <BR>
-```#include<iostream>
+```
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -101,61 +106,66 @@ int main() {
         default:
         cout<<"Wrong Input";
     }
-}```
+}
+```
 
 
 4) CODE D:  <BR>
-#include <iostream> <BR>
-using namespace std; <BR>
+```
+#include <iostream>
+using namespace std;
 
-int main(){ <BR>
-char oper; <BR>
-float n1, n2; <BR>
-cout<<"Enter an operator (+, -, *, /): "; <BR>
-cin>>oper; <BR>
-cout<<"Enter two numbers: "<<endl; <BR>
-cin>> n1 >> n2; <BR>
+int main(){
+char oper;
+float n1, n2;
+cout<<"Enter an operator (+, -, *, /): ";
+cin>>oper;
+cout<<"Enter two numbers: "<<endl;
+cin>> n1 >> n2;
 
-switch (oper) { <BR>
-case '+': <BR>
-cout<< n1 <<" + "<< n2 <<" = "<< n1 + n2; <BR>
-break; <BR>
-case '-': <BR>
-break; <BR>
-case '*': <BR>
-cout<< n1 <<" * "<< n2 <<" = "<< n1 * n2; <BR>
-break; <BR>
-case '/': <BR>
-cout<< n1 <<" / "<< n2 <<" = "<< n1 / n2; <BR>
-break; <BR>
-default: <BR>
-//operator is doesn't match any case constant (+, -, *, /) <BR>
-cout<<"Error! The operator is not correct"; <BR>
-break; <BR>
-    } <BR>
+switch (oper) {
+case '+':
+cout<< n1 <<" + "<< n2 <<" = "<< n1 + n2;
+break;
+case '-':
+break;
+case '*':
+cout<< n1 <<" * "<< n2 <<" = "<< n1 * n2;
+break;
+case '/':
+cout<< n1 <<" / "<< n2 <<" = "<< n1 / n2;
+break;
+default:
+//operator is doesn't match any case constant (+, -, *, /)
+cout<<"Error! The operator is not correct";
+break;
+    }
 
-return 0; <BR>
-} <BR>
+return 0;
+}
+```
 
 
 5) CODE E:<BR>
-#include <iostream> <BR>
-using namespace std; <BR>
+```
+#include <iostream>
+using namespace std;
 
-int main() { <BR>
-int day = 1; <BR>
-  switch (day) { <BR>
-    case 6: <BR>
-cout<< "Today is Saturday"; <BR>
-      break; <BR>
-    case 7: <BR>
-cout<< "Today is Sunday"; <BR>
-      break; <BR>
-    default: <BR>
-cout<< "Looking forward to the Weekend"; <BR>
-  } <BR>
-  return 0; <BR>
-} <BR>
+int main() {
+int day = 1;
+  switch (day) {
+    case 6:
+cout<< "Today is Saturday";
+      break;
+    case 7:
+cout<< "Today is Sunday";
+      break;
+    default:
+cout<< "Looking forward to the Weekend";
+  }
+  return 0;
+}
+```
 
 
 OUTPUT: <BR>
