@@ -12,7 +12,7 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 
 CODE: <BR>
 1) CODE A:<BR>
-'''#include<iostream>
+```#include<iostream>
 using namespace std;
 
 int main() {
@@ -28,20 +28,20 @@ int main() {
     else {
         cout<<a<<" is even"<<endl;
     }
-}'''
+}```
 
 2) CODE B: <BR>
-#include<iostream> <BR>
-using namespace std; <BR>
+```#include<iostream>
+using namespace std;
 
-int main() { <BR>
-    int  n1, n2, n3; <BR>
-    cout<<"Enter number1:"; <BR>
-    cin>>n1; <BR>
-    cout<<"Enter number2:"; <BR>
-    cin>>n2; <BR>
-    cout<<"Enter number3:"; <BR>
-    cin>>n3; <BR>
+int main() {
+    int  n1, n2, n3;
+    cout<<"Enter number1:";
+    cin>>n1;
+    cout<<"Enter number2:";
+    cin>>n2;
+    cout<<"Enter number3:";
+    cin>>n3;
 
     if(n1>n2) {
         if(n1>n3) {
@@ -62,17 +62,17 @@ int main() { <BR>
     else {
         cout<<"All numbers are equal";
     }
-} <BR>
+}```
 
 
 3) CODE C: <BR>
-#include<iostream> <BR>
-using namespace std; <BR>
+```#include<iostream>
+using namespace std;
 
-int main() { <BR>
-    int choice; <BR>
-    cout<<"1. Monday"<<endl<<"2. Tuesday"<<endl<<"3. Wednesday"<<endl<<"4. Thursday"<<endl<<"5. Friday"<<endl 
-    <<"6. Saturday"<<endl<<"7. Sunday"<<endl; <BR>
+int main() {
+    int choice;
+    cout<<"1. Monday"<<endl<<"2. Tuesday"<<endl<<"3. Wednesday"<<endl<<"4. Thursday"<<endl<<"5. Friday"<<endl
+    <<"6. Saturday"<<endl<<"7. Sunday"<<endl;
     
     cout <<"Enter your choice: ";
     cin>>choice;
@@ -101,7 +101,7 @@ int main() { <BR>
         default:
         cout<<"Wrong Input";
     }
-} <BR>
+}```
 
 
 4) CODE D:  <BR>
