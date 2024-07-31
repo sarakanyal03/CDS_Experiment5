@@ -12,7 +12,7 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 
 CODE: <BR>
 1) <BR>
-#include<iostream> <BR>
+#include <iostream> <BR>
 using namespace std; <BR>
 
 int main() { <BR>
