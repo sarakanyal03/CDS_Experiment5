@@ -28,7 +28,7 @@ int main() {
     else {
         cout<<a<<" is even"<<endl;
     }
-} <BR>
+}<BR>
 
 
 2)
