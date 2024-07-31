@@ -10,6 +10,155 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 4) nested if : It is an 'if' statement which consists of one or more 'if' statement inside it. Used for creating complex decision making structures. <br>
 5) switch statement : The 'switch' statement is the control statement which changes the control of execution based on option or cases provided.
 
+CODE: <BR>
+1) 
+#include<iostream>
+using namespace std;
+
+int main() {
+    int  a;
+    cout<<"Enter positive number: ";
+    cin>>a;
+    if(a==0) {
+        cout<<a<<" is zero"<<endl;
+    }
+    else if(a%2!=0){
+        cout<<a<<" is odd"<<endl;
+    }
+    else {
+        cout<<a<<" is even"<<endl;
+    }
+} <BR>
+
+
+2)
+#include<iostream>
+using namespace std;
+
+int main() {
+    int  n1, n2, n3;
+    cout<<"Enter number1:";
+    cin>>n1;
+    cout<<"Enter number2:";
+    cin>>n2;
+    cout<<"Enter number3:";
+    cin>>n3;
+
+    if(n1>n2) {
+        if(n1>n3) {
+            cout<<n1<<" is the greatest number"<<endl;
+        }
+        else {
+            cout<<n3<<" is the greatest number"<<endl;
+        }
+    }
+    else if(n2>n1) {
+        if(n2>n3) {
+            cout<<n2<<" is the greatest number"<<endl;
+        }
+        else {
+            cout<<n3<<" is the greatest number"<<endl;
+        }
+    }
+    else {
+        cout<<"All numbers are equal";
+    }
+} <BR>
+
+
+3)
+#include<iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    cout<<"1. Monday"<<endl<<"2. Tuesday"<<endl<<"3. Wednesday"<<endl<<"4. Thursday"<<endl<<"5. Friday"<<endl
+    <<"6. Saturday"<<endl<<"7. Sunday"<<endl;
+    
+    cout <<"Enter your choice: ";
+    cin>>choice;
+    switch(choice) {
+        case 1:
+        cout<<"Monday";
+        break;
+        case 2:
+        cout<<"Tuesday";
+        break;
+        case 3:
+        cout<<"Wednesday";
+        break;
+        case 4:
+        cout<<"Thursday";
+        break;
+        case 5:
+        cout<<"Friday";
+        break;
+        case 6:
+        cout<<"Saturday";
+        break;
+        case 7:
+        cout<<"Sunday";
+        break;
+        default:
+        cout<<"Wrong Input";
+    }
+} <BR>
+
+
+4)
+#include <iostream>
+using namespace std;
+
+int main(){
+char oper;
+float n1, n2;
+cout<<"Enter an operator (+, -, *, /): ";
+cin>>oper;
+cout<<"Enter two numbers: "<<endl;
+cin>> n1 >> n2;
+
+switch (oper) {
+case '+':
+cout<< n1 <<" + "<< n2 <<" = "<< n1 + n2;
+break;
+case '-':
+break;
+case '*':
+cout<< n1 <<" * "<< n2 <<" = "<< n1 * n2;
+break;
+case '/':
+cout<< n1 <<" / "<< n2 <<" = "<< n1 / n2;
+break;
+default:
+//operator is doesn't match any case constant (+, -, *, /)
+cout<<"Error! The operator is not correct";
+break;
+    }
+
+return 0;
+} <BR>
+
+
+5)
+#include <iostream>
+using namespace std;
+
+int main() {
+int day = 1;
+  switch (day) {
+    case 6:
+cout<< "Today is Saturday";
+      break;
+    case 7:
+cout<< "Today is Sunday";
+      break;
+    default:
+cout<< "Looking forward to the Weekend";
+  }
+  return 0;
+} <BR>
+
+
 OUTPUT: <BR>
 
 5A : <BR>
