@@ -11,24 +11,24 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 5) switch statement : The 'switch' statement is the control statement which changes the control of execution based on option or cases provided.
 
 CODE: <BR>
-1) 
-#include<iostream>
-using namespace std;
+1) <BR>
+#include<iostream> <BR>
+using namespace std; <BR>
 
-int main() {
-    int  a;
-    cout<<"Enter positive number: ";
-    cin>>a;
-    if(a==0) {
-        cout<<a<<" is zero"<<endl;
-    }
-    else if(a%2!=0){
-        cout<<a<<" is odd"<<endl;
-    }
-    else {
-        cout<<a<<" is even"<<endl;
-    }
-}<BR>
+int main() { <BR>
+    int  a; <BR>
+    cout<<"Enter positive number: "; <BR>
+    cin>>a; <BR>
+    if(a==0) { <BR>
+        cout<<a<<" is zero"<<endl; <BR>
+    } <BR>
+    else if(a%2!=0){ <BR>
+        cout<<a<<" is odd"<<endl; <BR>
+    } <BR>
+    else { <BR>
+        cout<<a<<" is even"<<endl; <BR>
+    } <BR>
+}  <BR>
 
 
 2)
