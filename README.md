@@ -11,27 +11,26 @@ Based on certain conditions decision making statments in C++ allow you ti contro
 5) switch statement : The 'switch' statement is the control statement which changes the control of execution based on option or cases provided.
 
 CODE: <BR>
-1) <BR>
-#include <iostream> <BR>
-using namespace std; <BR>
+1) CODE A:<BR>
+'''#include<iostream>
+using namespace std;
 
-int main() { <BR>
-    int  a; <BR>
-    cout<<"Enter positive number: "; <BR>
-    cin>>a; <BR>
-    if(a==0) { <BR>
-        cout<<a<<" is zero"<<endl; <BR>
-    } <BR>
-    else if(a%2!=0){ <BR>
-        cout<<a<<" is odd"<<endl; <BR>
-    } <BR>
-    else { <BR>
-        cout<<a<<" is even"<<endl; <BR>
-    } <BR>
-}  <BR>
+int main() {
+    int  a;
+    cout<<"Enter positive number: ";
+    cin>>a;
+    if(a==0) {
+        cout<<a<<" is zero"<<endl;
+    }
+    else if(a%2!=0){
+        cout<<a<<" is odd"<<endl;
+    }
+    else {
+        cout<<a<<" is even"<<endl;
+    }
+}'''
 
-
-2) <BR>
+2) CODE B: <BR>
 #include<iostream> <BR>
 using namespace std; <BR>
 
@@ -66,7 +65,7 @@ int main() { <BR>
 } <BR>
 
 
-3) <BR>
+3) CODE C: <BR>
 #include<iostream> <BR>
 using namespace std; <BR>
 
@@ -105,7 +104,7 @@ int main() { <BR>
 } <BR>
 
 
-4) <BR>
+4) CODE D:  <BR>
 #include <iostream> <BR>
 using namespace std; <BR>
 
@@ -139,7 +138,7 @@ return 0; <BR>
 } <BR>
 
 
-5) <BR>
+5) CODE E:<BR>
 #include <iostream> <BR>
 using namespace std; <BR>
 
@@ -173,4 +172,5 @@ OUTPUT: <BR>
 ![5E](https://github.com/sarakanyal03/CDS_Experiment5/blob/main/e.png)
 
 CONCLUSION :  <BR>
+
 
